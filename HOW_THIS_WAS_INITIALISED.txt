@@ -1,0 +1,25 @@
+#Install Environement
+ ## Install Eclipse Environment
+  ###Java jre and jdk installed
+  ###Environment path JAVA set to find the jdk
+  ###Workspace created with Eclipse Enide (special version for node js)
+
+ ##Express Node JS environment
+  ###nodejs installed
+  ###npm installed
+  ###windows command prompt opened in workspace  and npm init (to create the package.json file needed, name it app.js)
+  ###install nodeclipse with npm
+  ###install the Express framework npm install express --save
+  ###install the EJS template (it's a view template) npm install ejs
+
+#Create from scratch
+ ##Generate first Express project
+  ###install the Express framework generator : npm install express-generator -g
+  ###create express project : express --view=ejs publicdepoche
+ ##Import created project into Eclipse
+  ###in Eclipse File>New>Node.js Express Poject (enter name of project created and ejs template engine)
+  ###set the RUN configuration on Eclipse (to tell him what file to run...he doesn't know what the main file is) by creating a run configuration RUN>Run configurations>Node Application and search for app.js
+  ###color your ejs files by going in window>preferences      content types>HTML and add "*.ejs" to the supported file types
+ ##Versioning of your new project 
+  ###open git-cmd window, and go to workspace
+  ###git init
