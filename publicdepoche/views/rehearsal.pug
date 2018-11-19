@@ -1,0 +1,20 @@
+//- Copyright 2016 Google Inc. All Rights Reserved.
+//- Licensed under the Apache License, Version 2.0 (the "License");
+//- you may not use this file except in compliance with the License.
+//- You may obtain a copy of the License at
+//-     http://www.apache.org/licenses/LICENSE-2.0
+//- Unless required by applicable law or agreed to in writing, software
+//- distributed under the License is distributed on an "AS IS" BASIS,
+//- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//- See the License for the specific language governing permissions and
+//- limitations under the License.
+extends layout
+
+block content  
+    #container.rehearsalzone.container-fluid
+        .row
+            #recording.col-sm-9.left 
+                svg(width="64" height="64")
+                    circle(cx="25" cy="30" r="16" stroke="red" stroke-width="3" fill="none")
+                    circle(cx="25" cy="30" r="10" fill="red")
+            include timer

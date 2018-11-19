@@ -12,3 +12,72 @@ a {
     padding: 0;
     list-style: none;
 }
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+/*Rehearsal specific*/
+
+div#container.rehearsalzone {
+	background-color: #1C1C1C;
+	width: 50vw;
+	height: 50vh;
+}
+
+div#timer {
+	color: #FFFFFF;
+}
+
+/*Timer specific*/
+#counter-wrapper #counter-container {
+    text-align: center;
+}
+
+#counter-wrapper {
+    font-family: "Helvetica Monospaced W01","Lucida Console",Monaco,monospace;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 85%;
+}
+
+#overtime {
+    display: none;
+    font-color: #fff;
+    font-size: 17vw;
+    font-weight: strong;
+    position: relative;
+    text-align: center;
+    font-family: "Neue Helvetica","Helvetica",Monaco,monospace;
+    padding-top: 6vmin;
+    padding-bottom: 2.5vmin;
+    animation: fade 2s ease infinite;
+}
+
+#counter-wrapper .timer-undertime {
+    font-size: 14vmin;
+}
+
+#dot-wrapper .dotblock {
+    display: inline-block;
+    width: 1.2vmin;
+
+}
+#dot-wrapper .dot {
+    background: #fff;
+    height: 1vmin;
+    width: 1vmin;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.dotFade {
+    -webkit-opacity: .15;
+    -moz-opacity: .15;
+    opacity: .15;
+    transition: all 6s ease;

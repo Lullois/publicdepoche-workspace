@@ -7,8 +7,8 @@ router.get('/', function(req, res, next) {
 });
 
 //GET home page catalog
-/*router.get('/', function(req, res) {
+router.get('/catalog', function(req, res) {
   res.redirect('/catalog');
-});*/
+});
 
 module.exports = router;
